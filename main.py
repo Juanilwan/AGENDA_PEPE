@@ -2,10 +2,6 @@ import connector
 
 #Crear una funcion main que pasa variables a otras funciones
 
-lista_nombres = []
-lista_asignaturas = []
-lista_fechas = []
-
 def main():
     opcion = 0
 
