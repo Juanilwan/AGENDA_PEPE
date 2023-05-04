@@ -53,7 +53,7 @@ def tareas_pendientes():
     for i in asignatura: 
         if i !="": lista_asignaturas.append(i)
     
-    fechas = connector.getAsignatura()
+    fechas = connector.getFecha()
     fechas = fechas.split(":separator:")
     for i in fechas: 
         if i !="": lista_fechas.append(i)    
